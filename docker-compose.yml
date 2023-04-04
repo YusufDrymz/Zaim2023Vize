@@ -47,7 +47,7 @@ services:
       - ./certs:/etc/letsencrypt
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
-    command: certonly --webroot --webroot-path=/var/www/certbot --yusuf.erkamyed@gmail.com--agree-tos --no-eff-email -d yusufdrymz.live
+    command: certonly --webroot --webroot-path=/var/www/certbot --yusuf.erkamyed@gmail.com--agree-tos --no-eff-email -d  yusufdrymz.live
 
 volumes:
   wordpress:

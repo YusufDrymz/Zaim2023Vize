@@ -16,8 +16,8 @@ services:
     image: mariadb
     restart: always
     environment:
-      MYSQL_DATABASE: exampledb
-      MYSQL_USER: exampleuser
+      MYSQL_DATABASE: yusufdrymz
+      MYSQL_USER: 030121008
       MYSQL_PASSWORD: examplepass
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
 

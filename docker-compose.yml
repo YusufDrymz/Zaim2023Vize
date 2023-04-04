@@ -17,8 +17,8 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: yusufdrymz
-      MYSQL_USER: 030121008
-      MYSQL_PASSWORD: examplepass
+      MYSQL_USER: yusufdrymz
+      MYSQL_PASSWORD: '030121008'
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
 
   nginx:

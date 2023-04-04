@@ -33,9 +33,10 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
       - ./certs:/etc/nginx/certs
       - wordpress:/var/www/html
+      - certbot-etc:/etc/letsencrypt
+      - certbot-var:/var/lib/letsencrypt
     environment:
     VIRTUAL_HOST: yusufdrymz.live
-
 
   certbot:
     image: certbot/certbot
